@@ -10,7 +10,7 @@ export const useFetchCurrencies = (
   options = {} as QueryObserverOptions
 ): UseQueryResult<IFetchCurrenciesResponse, Error> => {
   const queryOptions: QueryObserverOptions = {
-    //refetchInterval: 10 * 1000,
+    refetchInterval: 10 * 1000,
     ...options,
   };
 

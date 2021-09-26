@@ -4,6 +4,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import { QueryClientProvider } from "react-query";
+import { StylesProvider } from "@mui/styles";
 
 import { App } from "./components/App/App";
 import { store } from "./redux/store";
@@ -17,9 +18,11 @@ ReactDOM.render(
   <React.StrictMode>
     <ErrorBoundary>
       <Provider store={store}>
-        <QueryClientProvider client={queryClient}>
-          <App />
-        </QueryClientProvider>
+        <StylesProvider injectFirst>
+          <QueryClientProvider client={queryClient}>
+            <App />
+          </QueryClientProvider>
+        </StylesProvider>
       </Provider>
     </ErrorBoundary>
   </React.StrictMode>,

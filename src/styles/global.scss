@@ -7,10 +7,10 @@
 }
 
 body {
-  margin: 0;
+  margin: $s0;
   background-color: $light-gray;
   font-family: $roboto;
-  font-size: pixelToRem(16);
+  font-size: $s16;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
