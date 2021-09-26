@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $light-gray;
+  font-family: $roboto;
+  font-size: pixelToRem(16);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}

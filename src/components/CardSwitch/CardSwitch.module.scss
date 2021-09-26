@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+.cardSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: $s30;
+}
+
+.btnWrapper {
+  border: $s4 solid $light-gray;
+  background-color: white;
+  border-radius: 50%;
+}

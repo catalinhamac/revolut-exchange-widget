@@ -1,0 +1,6 @@
+@import "../../styles/variables.scss";
+
+.muiInputLabelRoot + div {
+  margin-top: 0 !important;
+  font-weight: 700;
+}
