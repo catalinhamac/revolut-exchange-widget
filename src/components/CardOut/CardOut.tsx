@@ -2,7 +2,6 @@ import React, { ChangeEvent, useMemo, useEffect } from "react";
 import Card from "@mui/material/Card";
 import { shallowEqual } from "react-redux";
 
-import { SelectCurrencyOut } from "../SelectCurrencyOut/SelectCurrencyOut";
 import { Input } from "../Input/Input";
 import { useAppDispatch, useAppSelector } from "../../redux/hooks";
 import {
@@ -10,9 +9,11 @@ import {
   setConvert,
   selectCurrencies,
   setSelectionOut,
+  Selection,
 } from "../../redux/currencies-slice/currencies-slice";
 import { convert, IStateConvert } from "../../utils";
 import { useRates } from "../useRates";
+import { AutocompleteDialog } from "../AutocompleteDialog/AutocompleteDialog";
 
 import styles from "./CardOut.module.scss";
 
@@ -50,7 +51,7 @@ export const CardOut = () => {
   return (
     <Card sx={{ boxShadow: "none", borderRadius: "1rem" }} data-testid={testId}>
       <div className={styles.content}>
-        <SelectCurrencyOut />
+        <AutocompleteDialog selection={Selection.Out} />
         <Input
           onChange={handleChange}
           selectedValue={selectedValue}
