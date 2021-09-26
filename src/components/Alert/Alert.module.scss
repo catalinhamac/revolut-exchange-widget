@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+.MuiAlertStandardInfo {
+  background-color: $light-gray;
+}
+
+.MuiAlertRoot {
+  color: inherit;
+  padding: $s24;
+}
+
+.title {
+  margin-bottom: $s6;
+}

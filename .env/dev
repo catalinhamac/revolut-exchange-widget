@@ -1,0 +1,3 @@
+REACT_APP_FIXER_API_ACCESS_KEY=2c3c0c5c4e5e7e14ebc1c41c35bad5d5
+REACT_APP_BASE_URL=http://data.fixer.io/api/
+REACT_APP_ENDPOINT=http://data.fixer.io/api/latest?access_key=2c3c0c5c4e5e7e14ebc1c41c35bad5d5&symbols=USD,AUD,CAD,PLN,MXN,GBP&format=1

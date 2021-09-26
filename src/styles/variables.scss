@@ -1,0 +1,16 @@
+@import "./utils.scss";
+
+//fonts
+$roboto: "Roboto", Sans-Serif, Arial, Helvetica;
+
+//colors
+$light-gray: #cccccc42;
+
+//spacing
+$s0: pixelToRem(0);
+$s2: pixelToRem(2);
+$s4: pixelToRem(4);
+$s6: pixelToRem(6);
+$s16: pixelToRem(16);
+$s24: pixelToRem(24);
+$s30: pixelToRem(30);

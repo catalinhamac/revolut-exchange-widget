@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="14" failures="0" errors="0" time="5.373">
+  <testsuite name="fetchCurrencies" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="1.741" tests="1">
+    <testcase classname="fetchCurrencies call fetchCurrencies" name="fetchCurrencies call fetchCurrencies" time="0.083">
+    </testcase>
+  </testsuite>
+  <testsuite name="useFetchCurrencies" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="2.038" tests="1">
+    <testcase classname="useFetchCurrencies successful query hook" name="useFetchCurrencies successful query hook" time="0.043">
+    </testcase>
+  </testsuite>
+  <testsuite name="LiveRate" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="2.569" tests="1">
+    <testcase classname="LiveRate Component renders" name="LiveRate Component renders" time="0.099">
+    </testcase>
+  </testsuite>
+  <testsuite name="CardSwitch" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="2.569" tests="1">
+    <testcase classname="CardSwitch Component renders" name="CardSwitch Component renders" time="0.081">
+    </testcase>
+  </testsuite>
+  <testsuite name="Snackbar" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="2.617" tests="1">
+    <testcase classname="Snackbar Component renders" name="Snackbar Component renders" time="0.106">
+    </testcase>
+  </testsuite>
+  <testsuite name="NativeSelect" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="2.77" tests="1">
+    <testcase classname="NativeSelect Component renders" name="NativeSelect Component renders" time="0.212">
+    </testcase>
+  </testsuite>
+  <testsuite name="Input" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="2.8" tests="1">
+    <testcase classname="Input Component renders" name="Input Component renders" time="0.088">
+    </testcase>
+  </testsuite>
+  <testsuite name="SelectCurrencyIn" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="2.889" tests="1">
+    <testcase classname="SelectCurrencyIn Component renders" name="SelectCurrencyIn Component renders" time="0.169">
+    </testcase>
+  </testsuite>
+  <testsuite name="SelectCurrencyOut" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="2.909" tests="1">
+    <testcase classname="SelectCurrencyOut Component renders" name="SelectCurrencyOut Component renders" time="0.158">
+    </testcase>
+  </testsuite>
+  <testsuite name="CardIn" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="2.969" tests="1">
+    <testcase classname="CardIn Component renders" name="CardIn Component renders" time="0.119">
+    </testcase>
+  </testsuite>
+  <testsuite name="CardSwitch" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="2.984" tests="1">
+    <testcase classname="CardSwitch Component renders" name="CardSwitch Component renders" time="0.119">
+    </testcase>
+  </testsuite>
+  <testsuite name="ActionButton" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="3.652" tests="1">
+    <testcase classname="ActionButton Component renders" name="ActionButton Component renders" time="0.052">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-09-26T09:45:09" time="3.678" tests="2">
+    <testcase classname=" renders learn react link" name=" renders learn react link" time="0.001">
+    </testcase>
+    <testcase classname="App Component renders" name="App Component renders" time="0.099">
+    </testcase>
+  </testsuite>
+</testsuites>
