@@ -53,7 +53,7 @@ export const AutocompleteDialog = ({ selection }: IProps) => {
 
   const getOptions = (rates: IFetchCurrenciesResponse) =>
     rates &&
-    Object.keys(rates).map((r: any) => ({
+    Object.keys(rates).map((r: string) => ({
       label: r,
       value: rates[r],
     }));
@@ -65,6 +65,7 @@ export const AutocompleteDialog = ({ selection }: IProps) => {
 
   const handleChange = (
     event: SyntheticEvent,
+    // eslint-disable-next-line
     value: { label: any; value: number } | null,
     reason: AutocompleteChangeReason,
     details?: AutocompleteChangeDetails<unknown> | undefined
