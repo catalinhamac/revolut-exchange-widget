@@ -32,6 +32,7 @@ export const ConfirmModal = ({ handleLimit, ...rest }: IProps) => {
           padding: "1.5rem",
           borderRadius: "1rem",
           textAlign: "center",
+          maxWidth: "520px",
         }}
       >
         <Box>
