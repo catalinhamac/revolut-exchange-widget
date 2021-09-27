@@ -1,17 +1,32 @@
-import React, { Component } from "react";
+import React, { Component, ErrorInfo, ReactNode } from "react";
 
-export class ErrorBoundary extends Component {
-  state = { hasError: false };
+interface IProps {
+  children: ReactNode;
+}
 
-  componentDidCatch() {
-    this.setState({ hasError: true });
+interface IState {
+  hasError: boolean;
+}
+
+export class ErrorBoundary extends Component<IProps, IState> {
+  public state: IState = {
+    hasError: false,
+  };
+
+  public static getDerivedStateFromError(_: Error): IState {
+    // Update state so the next render will show the fallback UI.
+    return { hasError: true };
   }
 
-  render() {
-    return this.state.hasError ? (
-      <p>The application is temporarily unavailable</p>
-    ) : (
-      this.props.children
-    );
+  public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
+    console.error("Uncaught error:", error, errorInfo);
+  }
+
+  public render() {
+    if (this.state.hasError) {
+      return <h1>Sorry.. there was an error</h1>;
+    }
+
+    return this.props.children;
   }
 }
